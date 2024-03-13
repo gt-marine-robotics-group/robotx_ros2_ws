@@ -1,0 +1,4 @@
+[console_scripts]
+camera_node = robotx.camera_node:main
+drone_node = robotx.drone_node:main
+mission_node = robotx.mission_node:main

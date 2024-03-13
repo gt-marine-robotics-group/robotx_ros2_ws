@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robotx</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package for controlling and managing autonomous drone operations.</description>
+  <maintainer email="hchardin3@gatech.edu">hugues</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>action_msgs</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <depend>builtin_interfaces</depend> <!-- Commonly needed for message generation -->
+
+  <!-- Include dependencies for testing and code quality -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

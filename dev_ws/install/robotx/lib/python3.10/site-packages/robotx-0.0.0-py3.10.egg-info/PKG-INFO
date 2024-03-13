@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robotx
+Version: 0.0.0
+Summary: A ROS 2 package for autonomous drone operations
+Maintainer: hugues
+Maintainer-email: hchardin3@gatech.edu
+License: Apache-2.0
+Requires-Dist: setuptools

@@ -1,0 +1,17 @@
+# DroneOperation.action
+
+# Goal definition
+string command
+float32 altitude # Used for takeoff altitude; for other commands, this can be ignored or repurposed
+string search_area_bounds # Used for start search; format can be "north,south,east,west"
+int32 marker_id # Used for landing on marker; specifies which marker to land on
+
+---
+# Result definition
+bool success
+string message # Detailed message, e.g., "Landed on marker successfully."
+
+---
+# Feedback definition
+string current_operation # What the drone is currently doing, e.g., "Taking off", "Searching", "Landing", "Returning"
+float32 progress # Generic progress indicator, e.g., percentage of area searched or distance to marker

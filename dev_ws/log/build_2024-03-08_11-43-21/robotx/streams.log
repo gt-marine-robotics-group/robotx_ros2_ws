@@ -1,0 +1,39 @@
+[0.752s] Invoking command in '/home/hugues/robotx_ws/dev_ws/src/robotx': PYTHONPATH=/home/hugues/robotx_ws/dev_ws/build/robotx/prefix_override:/home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotx build --build-base /home/hugues/robotx_ws/dev_ws/build/robotx/build install --record /home/hugues/robotx_ws/dev_ws/build/robotx/install.log --single-version-externally-managed
+[0.927s] running egg_info
+[0.943s] writing ../../build/robotx/robotx.egg-info/PKG-INFO
+[0.943s] writing dependency_links to ../../build/robotx/robotx.egg-info/dependency_links.txt
+[0.943s] writing entry points to ../../build/robotx/robotx.egg-info/entry_points.txt
+[0.943s] writing requirements to ../../build/robotx/robotx.egg-info/requires.txt
+[0.944s] writing top-level names to ../../build/robotx/robotx.egg-info/top_level.txt
+[0.972s] reading manifest file '../../build/robotx/robotx.egg-info/SOURCES.txt'
+[0.973s] writing manifest file '../../build/robotx/robotx.egg-info/SOURCES.txt'
+[0.973s] running build
+[0.973s] running build_py
+[0.973s] copying robotx/system_launcher.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.973s] copying robotx/drone_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.974s] copying robotx/unmoving_landing.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.974s] copying robotx/search_and_report.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.974s] copying robotx/camera_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.974s] copying robotx/backup_drone_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.974s] copying robotx/mission_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.975s] copying robotx/__init__.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+[0.975s] running install
+[0.979s] running install_lib
+[0.994s] copying /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx/camera_node.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx
+[0.994s] byte-compiling /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx/camera_node.py to camera_node.cpython-310.pyc
+[0.995s] running install_data
+[1.009s] copying resource/robotx -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/ament_index/resource_index/packages
+[1.009s] copying package.xml -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx
+[1.009s] copying launch/drone_launch.launch.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/launch
+[1.009s] copying launch/launch_mission_unmoving_landing.launch.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/launch
+[1.009s] copying msg/MissionState.msg -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/msg
+[1.010s] copying msg/WaypointList.msg -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/msg
+[1.010s] running install_egg_info
+[1.025s] removing '/home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx-0.0.0-py3.10.egg-info' (and everything under it)
+[1.025s] Copying ../../build/robotx/robotx.egg-info to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx-0.0.0-py3.10.egg-info
+[1.025s] running install_scripts
+[1.154s] Installing camera_node script to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/robotx
+[1.154s] Installing drone_node script to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/robotx
+[1.154s] Installing mission_node script to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/robotx
+[1.155s] writing list of installed files to '/home/hugues/robotx_ws/dev_ws/build/robotx/install.log'
+[1.178s] Invoked command in '/home/hugues/robotx_ws/dev_ws/src/robotx' returned '0': PYTHONPATH=/home/hugues/robotx_ws/dev_ws/build/robotx/prefix_override:/home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotx build --build-base /home/hugues/robotx_ws/dev_ws/build/robotx/build install --record /home/hugues/robotx_ws/dev_ws/build/robotx/install.log --single-version-externally-managed

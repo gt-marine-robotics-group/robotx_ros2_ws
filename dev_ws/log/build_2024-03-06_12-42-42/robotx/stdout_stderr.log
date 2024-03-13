@@ -1,0 +1,41 @@
+running egg_info
+writing ../../build/robotx/robotx.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotx/robotx.egg-info/dependency_links.txt
+writing entry points to ../../build/robotx/robotx.egg-info/entry_points.txt
+writing requirements to ../../build/robotx/robotx.egg-info/requires.txt
+writing top-level names to ../../build/robotx/robotx.egg-info/top_level.txt
+reading manifest file '../../build/robotx/robotx.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotx/robotx.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robotx/system_launcher.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/drone_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/unmoving_landing.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/search_and_report.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/camera_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/backup_drone_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/mission_node.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+copying robotx/__init__.py -> /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx
+running install
+running install_lib
+copying /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx/system_launcher.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx
+copying /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx/drone_node.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx
+copying /home/hugues/robotx_ws/dev_ws/build/robotx/build/lib/robotx/mission_node.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx
+byte-compiling /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx/system_launcher.py to system_launcher.cpython-310.pyc
+byte-compiling /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx/drone_node.py to drone_node.cpython-310.pyc
+byte-compiling /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx/mission_node.py to mission_node.cpython-310.pyc
+running install_data
+copying resource/robotx -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/ament_index/resource_index/packages
+copying package.xml -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx
+copying launch/drone_launch.launch.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/launch
+copying launch/launch_mission_unmoving_landing.launch.py -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/launch
+copying msg/MissionState.msg -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/msg
+copying msg/WaypointList.msg -> /home/hugues/robotx_ws/dev_ws/install/robotx/share/robotx/msg
+running install_egg_info
+removing '/home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robotx/robotx.egg-info to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/python3.10/site-packages/robotx-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/robotx
+Installing drone_node script to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/robotx
+Installing mission_node script to /home/hugues/robotx_ws/dev_ws/install/robotx/lib/robotx
+writing list of installed files to '/home/hugues/robotx_ws/dev_ws/build/robotx/install.log'
