@@ -1,0 +1,3 @@
+bool has_taken_off
+bool has_ended_search
+bool has_found_marker
